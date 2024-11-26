@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My First Div Sandbox</title>
+</head>
+<body>
+    <h1>Click Me!</h1>
+    <h4>by Byronjay Baylon</h4>
+
+    <div class="head-container invisible">
+        <div class="main-container">
+            <div class="container">
+                <h3>My Notes #1</h3>
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi rem laboriosam odit ipsam laudantium sequi, libero corporis beatae, doloribus, tempore dolor nam debitis quo qui ratione minima id nemo fuga.
+
+                </p>
+            </div>
+            <div class="container">
+                <h3>My Notes #1</h3>
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi rem laboriosam odit ipsam laudantium sequi, libero corporis beatae, doloribus, tempore dolor nam debitis quo qui ratione minima id nemo fuga.
+
+                </p>
+            </div>
+            <div class="container">
+                <h3>My Notes #1</h3>
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi rem laboriosam odit ipsam laudantium sequi, libero corporis beatae, doloribus, tempore dolor nam debitis quo qui ratione minima id nemo fuga.
+
+                </p>
+            </div>
+            <div class="container">
+                <h3>My Notes #1</h3>
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi rem laboriosam odit ipsam laudantium sequi, libero corporis beatae, doloribus, tempore dolor nam debitis quo qui ratione minima id nemo fuga.
+
+                </p>
+            </div>
+            <div class="container">
+                <h3>My Notes #1</h3>
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi rem laboriosam odit ipsam laudantium sequi, libero corporis beatae, doloribus, tempore dolor nam debitis quo qui ratione minima id nemo fuga.
+
+                </p>
+            </div>
+            <div class="container">
+                <h3>My Notes #1</h3>
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi rem laboriosam odit ipsam laudantium sequi, libero corporis beatae, doloribus, tempore dolor nam debitis quo qui ratione minima id nemo fuga.
+
+                </p>
+            </div>
+        </div>
+    <hr>
+    <div class="main-container invisible">
+        <div class="container">
+            <h3>My Notes #1</h3>
+            <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi rem laboriosam odit ipsam laudantium sequi, libero corporis beatae, doloribus, tempore dolor nam debitis quo qui ratione minima id nemo fuga.
+
+            </p>
+        </div>
+        <div class="container">
+            <h3>My Notes #1</h3>
+            <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi rem laboriosam odit ipsam laudantium sequi, libero corporis beatae, doloribus, tempore dolor nam debitis quo qui ratione minima id nemo fuga.
+
+            </p>
+        </div>
+        <div class="container">
+            <h3>My Notes #1</h3>
+            <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi rem laboriosam odit ipsam laudantium sequi, libero corporis beatae, doloribus, tempore dolor nam debitis quo qui ratione minima id nemo fuga.
+
+            </p>
+        </div>
+        <div class="container">
+            <h3>My Notes #1</h3>
+            <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi rem laboriosam odit ipsam laudantium sequi, libero corporis beatae, doloribus, tempore dolor nam debitis quo qui ratione minima id nemo fuga.
+            <div class="button">
+                <button type="submit">Click Me</button>
+            </div>
+
+            </p>
+        </div>
+        <div class="container">
+            <h3>My Notes #1</h3>
+            <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi rem laboriosam odit ipsam laudantium sequi, libero corporis beatae, doloribus, tempore dolor nam debitis quo qui ratione minima id nemo fuga.
+
+            </p>
+        </div>
+        <div class="container">
+            <h3>My Notes #1</h3>
+            <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi rem laboriosam odit ipsam laudantium sequi, libero corporis beatae, doloribus, tempore dolor nam debitis quo qui ratione minima id nemo fuga.
+
+            </p>
+        </div>
+    </div>
+    </div>
+
+</body>
+<script>
+    window.addEventListener('scroll', function() {
+      var elements = document.querySelectorAll('.invisible');
+      var windowHeight = (window.innerHeight || document.documentElement.clientHeight);
+  
+      elements.forEach(function(element) {
+        var rect = element.getBoundingClientRect();
+  
+        if (rect.top <= windowHeight) {
+          element.classList.add('visible');
+        } else {
+          element.classList.remove('visible');
+        }
+      });
+    });
+  </script>
+  
+  
+</html>
